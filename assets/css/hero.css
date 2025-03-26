@@ -1,0 +1,85 @@
+.hero {
+  background: linear-gradient(150deg, #000000, #646464);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradientBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  100% {
+    background-position: 100% 50%;
+  }
+
+}
+
+.hero .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.hero .content h1 {
+  color: white;
+  font-size: 4em;
+}
+
+.hero .content p {
+  color: rgba(255, 255, 255, 0.644);
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.hero .content button {
+  background-color: rgb(0, 0, 0);
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.hero .content img{
+  width: 13px;
+  height: 13px;
+}
+
+.hero .buttons {
+  margin-top: 20px;
+}
+
+.hero .content button:hover {
+  background-color: rgb(48, 48, 48);
+  transition: 0.5s;
+}
+
+.hero .content a {
+  background-color: #000000;
+  font-family: "Rubik", sans-serif;
+  color: #dbb021;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.hero .content a:hover {
+  background-color: rgb(255, 255, 255);
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.hero .span-color {
+  color: #dbb021;
+}
