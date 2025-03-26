@@ -42,3 +42,18 @@ nav {
   color: white;
   cursor: pointer;
 }
+
+.logo {
+  display: none;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translateY(-50%);
+  transform: translateX(-50%);
+}
+
+.logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
