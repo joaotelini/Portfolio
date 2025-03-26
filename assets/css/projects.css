@@ -1,0 +1,79 @@
+.projects {
+  background: linear-gradient(200deg, #000000, #181818);
+}
+
+.projects h1 {
+  color: #dbb021;
+  font-size: 2em;
+  text-align: center;
+  margin: 0;
+  padding: 1em 0;
+}
+
+.projects .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects .content {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.projects .card {
+  border-radius: 5px;
+  margin: 0 40px 40px 40px;
+  overflow: hidden;
+  width: 300px;
+}
+
+.projects .card img {
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+}
+
+.projects .card h2 {
+  color: white;
+  text-align: center;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.projects .card p {
+  color: white;
+  text-align: center;
+  font-size: 1em;
+  margin: 0;
+  padding: 1em;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+}
+
+.projects button {
+  background-color: black;
+  color: #dbb021;
+  border: none;
+  border-radius: 5px;
+  padding: 1em 2em;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.projects button:hover {
+  background-color: #dbb021;
+  color: black;
+  transition: 0.5s;
+}
