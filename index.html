@@ -39,9 +39,10 @@
         <h1>Hi, I'm <span class="span-color">João Telini</span></h1>
         <p>a web dev <span class="span-color">building web products and solutions</span>.</p>
         <div class="buttons">
-          <button id="btnHero">
+          <button id="btnHero" onclick="downloadCV()">
             <img src="assets/img/download-svgrepo-com.svg" alt="">
-            Download CV</button>
+            Download CV
+          </button>
           <a href="#projects">View my projects</a>
         </div>
       </div>
@@ -96,17 +97,17 @@
           <p>I've xp in web development, focuse on creating morden and functional interfaces. I'm always looking for new challenges to improve my skills and contribute to projects that make a positive impact.</p>
           <p>In my portfolio, you'll find projects I've built for learning, pratice, and to solve real-world problems. My goal is to grow as a professional and deliver creative, efficient, and well-structured solutions.</p>
           <p>To see more:</p>
-          <button>Download CV</button>
+          <button onclick="downloadCV()">Download CV</button>
         </div>
         <div class="right">
-          <img src="https://placehold.co/300x300" alt="">
+          <img src="assets/img/me.jpeg" alt="">
         </div>
       </div>
     </div>
   </section>
 
   <script type="module" src="app.js"></script>
-  <script type="module" src="assets/js/hero.js"></script>
+  <script type="module" src="assets/js/downloadCV.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
 </body>
