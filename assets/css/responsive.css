@@ -51,3 +51,21 @@
         display: inline;
     }
 }
+
+@media screen and (max-width: 575px) {
+    .about .content .left {
+        width: 100%;
+    }
+
+    .about .content .right {
+        width: 100%;
+    }
+
+    .about .content .right img {
+        max-width: 200px;
+    }
+
+    .about .socials {
+        margin-bottom: 30px ;
+    }
+}

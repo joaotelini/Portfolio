@@ -5,17 +5,6 @@
   padding: 0 0 2em 0;
 }
 
-@keyframes gradientBG {
-  0% {
-    background-position: 0% 50%;
-  }
-
-  100% {
-    background-position: 100% 50%;
-  }
-
-}
-
 .about .container {
   display: flex;
   justify-content: center;
