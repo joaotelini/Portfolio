@@ -85,3 +85,12 @@
   background-color: #000000;
   color: #dbb021;
 }
+
+.contact .status {
+  color: #dbb021;
+  font-size: 1em;
+  text-align: center;
+  margin: 20px 0;
+  font-weight: normal;
+  width: 100%;
+}
