@@ -10,6 +10,7 @@ document
   .getElementById("contact-form")
   .addEventListener("submit", function (event) {
     event.preventDefault();
+    pstatus.innerHTML = "";
 
     emailjs.sendForm(serviceID, templateID, this).then(
       function () {
