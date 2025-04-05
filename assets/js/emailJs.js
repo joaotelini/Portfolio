@@ -20,5 +20,5 @@ document
       }
     );
 
-    // this.reset();Reset the form after submission
+    this.reset();
   });
