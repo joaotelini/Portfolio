@@ -11,3 +11,9 @@
   border-radius: 10px;
   border: 2px solid #1e1e1e;
 }
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #dbb021 #1e1e1e;
+}
