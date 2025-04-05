@@ -13,8 +13,7 @@ document
     pstatus.innerHTML = "";
 
     emailjs.sendForm(serviceID, templateID, this).then(
-      function () {
-      },
+      function () {},
       function (error) {
         pstatus.innerHTML = "Error sending message. Please try again later.";
         console.log("FAILED...", error);
